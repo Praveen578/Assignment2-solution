@@ -2,25 +2,25 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title><center>Our Menu</center></title>
 <style>
 	* {
     box-sizing: border-box;
-    font-family: Helvetica;
+    font-family: Arial;
 }
 
 body {
-    background-color: #d6d6d6;
+    background-color: white;
 }
 
 h1 {
     text-align: center;
     color: black;
+    font-family: Arial;
 }
 
 section {
     border: 1px solid black;
-    background-color: #b5c4d2;
+    background-color: gray;
     margin: 10px;
 }
 
@@ -31,28 +31,31 @@ section>h2 {
     margin: 0;
     width: 230px;
     text-align: center;
-    font-style: Times;
+    font-family: Arial;
     font-size: 24px;
     font-weight: bold;
     height: 45px;
     padding-top: 10px;
 }
 
-section.lebesgue>h2 {
-    background-color: #76b8db;
+section.chicken>h2 {
+    background-color: pink;
+    font-family: Arial;
 }
 
-section.fubini>h2 {
-    background-color: #4f7acd;
+section.beef>h2 {
+    background-color: red;
+    font-family: Arial;
 }
 
-section.luzin>h2 {
-    color: #e2e2e2;
-    background-color: #10328a;
+section.sushi>h2 {
+    background-color: yellow;
+    font-family: Arial;
 }
 
 section>p {
     padding: 40px 15px 15px 15px;
+    font-family: Arial;
 }
 
 .row {
